@@ -3,5 +3,4 @@ const getUsers = (req, res) => {
   res.json({ message: "Version 2 of user controller" });
 };
 
-//export the function
 module.exports = { getUsers };
